@@ -55,6 +55,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .marcas {
@@ -85,4 +87,7 @@ footer {
   header {
     flex-direction: column;
   }
+}
+.call {
+  background-image: url(img/fondos/home.png);
 }/*# sourceMappingURL=estilos.css.map */

@@ -1,3 +1,9 @@
-.call{
-    background-image: url(img/fondos/home.png);
+main {
+    flex: 1; /* Esto hace que el contenido ocupe todo el espacio restante */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start; /* Evita que las tarjetas se distribuyan verticalmente */
+    gap: 20px;
+    padding: 20px; /* Añade margen interior alrededor de las tarjetas */
 }

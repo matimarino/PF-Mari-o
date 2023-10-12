@@ -428,4 +428,7 @@ button:hover {
   .card__container {
     grid-template-columns: repeat(4, 2fr);
   }
+}
+body {
+  overflow: hidden;
 }/*# sourceMappingURL=estilos.css.map */

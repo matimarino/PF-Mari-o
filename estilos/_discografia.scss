@@ -11,6 +11,8 @@
 }
 
 .card {
+    height: 100%;
+    margin: 15px;
     transition: transform 0.5s;
     border-radius: 10px;
     overflow: hidden;
@@ -50,4 +52,19 @@
 
 .card:hover .back {
     transform: rotateY(0deg);
+}
+
+@media (max-width: 768px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

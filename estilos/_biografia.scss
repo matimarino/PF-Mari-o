@@ -44,4 +44,24 @@
     margin: 30px;
 }
 
+.capa img{
+    max-width: 100%;
+    height: auto;
+}
 
+@media (max-width: 768px){
+    .fondo{
+        background-attachment: scroll;
+    }
+    .capa{
+        padding: 20px;
+
+    }
+    .capa h3{
+        font-size: 30px;
+    }
+    .capa p{
+        font-size: 18px;
+        margin: 15px;
+    }
+}

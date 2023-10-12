@@ -1,5 +1,8 @@
 .fondo-home{
     background-image: url(/img/fondos/home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 .content{
@@ -9,19 +12,20 @@
     top: 45%;
     transform: translateY(-50%);
     text-align:center;
+    padding: 20px;
 }
 
 .content h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 80px;
-    font-size: 80px;
+    margin-top: 1rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
 button{
     width: 200px;
-    padding: 15px;
-    margin: 20px 5px;
+    padding: 1rem 2rem;
+    margin: 20px 0px;
     text-align: center;
     border-radius:25px ;
     color: black;
@@ -29,6 +33,7 @@ button{
     font-size: 20px;
     cursor: pointer;
     font-weight: 600px;
+    margin: 20px 0;
 }
 
 button:hover{
@@ -40,3 +45,14 @@ button:hover{
     color: black;
 }
 
+@media (max-width: 768px){
+    .content h1{
+        font-size: 2rem;
+    }
+
+    button{
+        width: 80%;
+        max-width: 200px;
+        font-size: 1.2rem;
+    }
+}

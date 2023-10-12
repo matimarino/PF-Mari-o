@@ -5,6 +5,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .marcas {

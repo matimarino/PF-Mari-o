@@ -11,11 +11,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+
 @import "header";
 @import "footer";
-@import "home";
 @import "shop";
+@import "home";
 @import "discografia";
+@import "biografia";
 
 body{
     overflow: hidden;

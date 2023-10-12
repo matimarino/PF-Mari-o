@@ -6,6 +6,7 @@
 
 .item{
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .item:hover{
@@ -13,10 +14,10 @@
 }
 
 .item img{
-    width: 100%;
-    height: 270px;
+    width:100%;
+    height: 230px;
     border-radius: 10px 10px 0 0;
-    transition: all .5s;
+    transition: transform 0.5s;
 }
 
 .item figure{

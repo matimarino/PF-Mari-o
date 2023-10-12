@@ -1,0 +1,47 @@
+
+
+.fondo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: url(/img/fondos/fondo-biografia.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+.fondo figure {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh; 
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.capa h3 {
+    font-size: 40px;
+}
+
+.capa p {
+    font-size: 25px;
+    margin: 30px;
+}
+
+

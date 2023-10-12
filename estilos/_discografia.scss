@@ -1,27 +1,27 @@
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Alineación en el centro */
-    gap: 20px;
-    padding: 20px;
+.main-disco{
+    background-color: rgba(0, 0, 0, 0.966);
+    height: 100vh;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 7 columnas en cada fila */
-    gap: 20px; /* Espacio entre las tarjetas */
-    max-width: 2500px; /* Ajusta esto según tu diseño */
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 20px; 
+    max-width: 2500px;
 }
 
 .card {
     transition: transform 0.5s;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card img {
-    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
-    height: 100%; /* La imagen ocupa todo el alto de la tarjeta */
+    width: 100%;
+    height: 100%; 
     border-radius: 10px 10px 0 0;
 }
 
@@ -37,10 +37,7 @@ main {
     transition: 1s;
     padding: 10px;
     box-sizing: border-box;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: black;
 }
 
 .card .back {

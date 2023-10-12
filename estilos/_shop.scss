@@ -1,3 +1,7 @@
+.tienda-fondo{
+    background-color: rgba(0, 0, 0, 0.966);
+}
+
 .conteiner-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -25,7 +29,7 @@
 }
 
 .item:hover img{
-    transform: scale(1,2);
+    transform: scale(01.1);
 }
 
 .info-producto{
@@ -48,9 +52,9 @@
 }
 
 .info-producto h2{
-    color: black;
+    color: white;
 }
 
 .info-producto p{
-    color: black;
+    color: white;
 }

@@ -103,6 +103,10 @@ footer {
     flex-direction: column;
   }
 }
+.tienda-fondo {
+  background-color: rgba(0, 0, 0, 0.966);
+}
+
 .conteiner-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -130,7 +134,7 @@ footer {
 }
 
 .item:hover img {
-  transform: scale(1, 2);
+  transform: scale(1.1);
 }
 
 .info-producto {
@@ -153,11 +157,11 @@ footer {
 }
 
 .info-producto h2 {
-  color: black;
+  color: white;
 }
 
 .info-producto p {
-  color: black;
+  color: white;
 }
 
 .fondo-home {

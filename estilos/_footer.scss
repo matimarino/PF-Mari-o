@@ -1,23 +1,23 @@
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
+    padding: 10px;
+    z-index: 2;
 }
 
 .marcas {
-    min-width: 600px;
     display: flex;
     justify-content: center;
 }
 
 .marcas a {
+    margin-top: 0 10px;
     text-decoration: none;
     font-size: 24px;
     width: 50px;
@@ -35,9 +35,8 @@ footer {
     transform: scale(1.1);
 }
 
-@media (max-width:700px){
-    header{
-        flex-direction:column;
+@media (max-width: 768px){
+    .marcas a{
+        margin: 0 5px;
     }
-
 }

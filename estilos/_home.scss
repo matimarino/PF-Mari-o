@@ -8,11 +8,12 @@
 .content{
     width: 100%;
     position: absolute;
-    color: black;
+    color: white;
     top: 45%;
     transform: translateY(-50%);
     text-align:center;
     padding: 20px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .content h1{
@@ -48,6 +49,12 @@ button:hover{
 @media (max-width: 768px){
     .content h1{
         font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+    }
+
+    .fondo-home{
+        background-image: url(../img/fondos/home\ mobile.jpg);
     }
 
     button{

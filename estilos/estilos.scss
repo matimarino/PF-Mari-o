@@ -14,8 +14,11 @@ body {
     max-width: 100%;
 }
 
-.bd{
-    overflow: hidden
+
+
+a{
+    text-decoration: none;
+    color: white
 }
 
 
@@ -26,15 +29,4 @@ body {
 @import "discografia";
 @import "biografia";
 @import "premios";
-
-@media screen and (max-width: 768px) {
-    
-    body {
-    overflow: auto; 
-    } 
-
-    *{
-        overflow: auto;
-    }
-}
 

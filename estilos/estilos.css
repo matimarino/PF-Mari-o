@@ -14,15 +14,6 @@ body {
   max-width: 100%;
 }
 
-.bd {
-  overflow: hidden;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -109,6 +100,14 @@ footer {
     margin: 0 5px;
   }
 }
+@media (max-width: 400px) {
+  .marcas a {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
 main.tienda-fondo {
   margin-bottom: 60px;
 }
@@ -179,13 +178,15 @@ main.tienda-fondo {
 }
 
 @media (max-width: 768px) {
-  .container-items {
+  .conteiner-items {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }
-@media (min-width: 769px) {
-  .container-items {
-    grid-template-columns: repeat(3, 1fr);
+@media (max-width: 480px) {
+  .conteiner-items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 }
 .fondo-home {
@@ -339,7 +340,7 @@ button:hover {
   background-position: center;
   height: 100vh;
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .fondo figure {
@@ -347,7 +348,6 @@ button:hover {
   position: relative;
   height: 100vh;
   width: 100%;
-  overflow: hidden;
   margin: 0;
 }
 
@@ -373,7 +373,6 @@ button:hover {
 .capa p {
   font-size: 25px;
   margin: 30px;
-  letter-spacing: 2px;
 }
 
 .capa img {
@@ -532,13 +531,5 @@ button:hover {
     grid-template-columns: repeat(1, 1fr);
     overflow: scroll;
     max-height: 100vh;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    overflow: auto;
-  }
-  * {
-    overflow: auto;
   }
 }/*# sourceMappingURL=estilos.css.map */

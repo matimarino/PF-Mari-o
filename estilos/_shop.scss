@@ -68,14 +68,15 @@ main.tienda-fondo{
 }
 
 @media (max-width: 768px){
-    .container-items{
+    .conteiner-items{
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 }
 
-
-@media (min-width: 769px){
-    .container-items{
-        grid-template-columns: repeat(3, 1fr);
+@media (max-width: 480px){
+    .conteiner-items{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
     }
 }

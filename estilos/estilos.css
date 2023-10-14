@@ -439,7 +439,7 @@ button:hover {
 }
 
 .card__data {
-  color: rgb(145, 145, 145);
+  color: rgb(34, 33, 33);
   width: 280px;
   padding: 1.5rem 2rem;
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
@@ -451,18 +451,18 @@ button:hover {
   margin-inline: auto;
   opacity: 0;
   transition: opacity 1s 1s;
-  background-color: rgb(46, 45, 45);
+  background-color: rgb(148, 148, 148);
 }
 
 .card__description {
   display: block;
   font-size: var(15px);
+  font-weight: 500;
   margin-bottom: 0.25rem;
 }
 
 .card__title {
   font-size: var(30px);
-  font-weight: 500;
   color: black;
   margin-bottom: 0.75rem;
 }

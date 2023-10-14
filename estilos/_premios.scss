@@ -8,6 +8,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .contenedor{
@@ -126,13 +128,17 @@
 
 @media (max-width: 768px){
     .card__container{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        overflow: scroll;
+        max-height: 100vh;
     }
 }
 
 @media (max-width: 480px){
     .card__container{
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(1, 1fr);
+        overflow: scroll;
+        max-height: 100vh;
     }
 }
-
